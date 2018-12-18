@@ -1,0 +1,16 @@
+Package: majordome
+Title: Manage Remote 'RConnect' and 'RStudio Package Manger' 
+Version: 0.0.0.9000
+Authors@R: person("Colin", "Fay", email = "contact@colinfay.me", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-7343-1846"))
+Description: Access and manage Remote 'RConnect' and 'RStudio Package Manger' 
+    session from within your local R session. majordome allows you to access and 
+    administrate your remote sessions for 'RConnect' and 'RStudio Package Manger'. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    crul,
+    R6,
+    glue,
+    ssh
+RoxygenNote: 6.1.0
